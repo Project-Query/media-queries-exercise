@@ -1,4 +1,9 @@
 
+.alert-info.hidden-on-mobile {
+    display: none;
+}
+
+
 .nav-links {
 float: right;
 }
@@ -47,6 +52,10 @@ footer, p {
         float: none;
         text-align: center;
         padding-left: 0;
+    }
+
+    li {
+        display: block;
 
     }
 
