@@ -1,5 +1,6 @@
-
-
+.alert-info hidden-on-mobile {
+    display: none;
+}
 
 .nav-links {
 float: right;
@@ -31,4 +32,14 @@ section.sub-section {
 .header-img>img {
     width: 100vw;
 }
+
+@media screen and (min-width:385px) and (max-width:890px) {
+    li {
+        display: block;
+
+    }
+
+}
+
+
 
