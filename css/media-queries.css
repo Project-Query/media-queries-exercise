@@ -1,6 +1,4 @@
-* {
-    border:1px solid black;
-}
+
 
 
 .nav-links {
@@ -17,28 +15,20 @@ a {
 }
 
 section#main.main {
-    width: 70%;
-    padding: 10px;
+    width: 65%;
     float: left;
-
+    padding: 2px;
 
 }
 
 section.sub-section {
-    width: 25%;
-    height: 50px;
+    width: 30%;
+    height: 50%;
     float: left;
+    padding-left: 10px;
 }
 
 .header-img>img {
     width: 100vw;
 }
-
-footer {
-    padding-top: 200px;
-
-    padding-left: 25px;
-}
-
-
 
