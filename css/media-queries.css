@@ -1,6 +1,4 @@
 
-
-
 .nav-links {
 float: right;
 }
@@ -32,3 +30,24 @@ section.sub-section {
     width: 100vw;
 }
 
+footer, p {
+    clear: both;
+}
+
+@media screen and (max-width:768px) {
+    .nav-links li {
+        display: block;
+        width: 100%;
+        background-color: gray;
+        margin-bottom: 10px;
+        padding: 5px;
+    }
+
+    .nav-links {
+        float: none;
+        text-align: center;
+        padding-left: 0;
+
+    }
+
+}
