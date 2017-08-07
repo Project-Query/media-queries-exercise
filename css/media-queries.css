@@ -13,10 +13,13 @@ a {
 
 .main {
     height: 200px;
-    width: 200px;
+    width: 600px;
+    padding-right: 10px;
+
     float: left;
 
 }
 
 .sub-section{
+
 }
