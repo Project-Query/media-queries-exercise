@@ -12,13 +12,21 @@ a {
 }
 
 .main {
-    height: 200px;
     width: 75%;
     padding-right: 10px;
     float: left;
 
 }
 
+.sub-section {
+    float: right;
+    width: 25%;
+}
+
 .header-img>img {
     width: 100vw;
+}
+
+footer {
+    clear: both;
 }
