@@ -42,18 +42,16 @@ footer, p {
 @media screen and (max-width:768px) {
     .nav-links li {
         display: block;
-        width: 100%;
+        width: 95%;
         background-color: lightgrey;
         margin-bottom: 10px;
         padding: 5px;
-        /*padding-right: 10px;*/
     }
 
     .nav-links {
         float: none;
         text-align: center;
         padding-left: 0;
-        padding-right: 12px;
     }
 
     li {
@@ -64,6 +62,7 @@ footer, p {
     section.sub-section {
         float: none;
         width:auto;
+        padding-left: 0;
     }
 
     section#main.main {
@@ -73,7 +72,7 @@ footer, p {
 
     .alert-info.hidden-on-mobile {
         display: block;
-        width: 100%;
+        width: 95%;
         padding: 5px;
         background-color: turquoise;
         text-align: center;
@@ -81,5 +80,10 @@ footer, p {
 
     h1 {
         text-align: center;
+    }
+
+    .header-img>img {
+        width: 300px;
+        height:224px;
     }
 }
