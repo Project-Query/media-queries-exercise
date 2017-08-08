@@ -46,12 +46,14 @@ footer, p {
         background-color: gray;
         margin-bottom: 10px;
         padding: 5px;
+        /*padding-right: 10px;*/
     }
 
     .nav-links {
         float: none;
         text-align: center;
         padding-left: 0;
+        padding-right: 12px;
     }
 
     li {
@@ -59,4 +61,25 @@ footer, p {
 
     }
 
+    section.sub-section {
+        float: none;
+        width:auto;
+    }
+
+    section#main.main {
+        width: auto;
+        float: none;
+    }
+
+    .alert-info.hidden-on-mobile {
+        display: block;
+        width: 100%;
+        padding: 5px;
+        background-color: turquoise;
+        text-align: center;
+    }
+
+    h1 {
+        text-align: center;
+    }
 }
