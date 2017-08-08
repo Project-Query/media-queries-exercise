@@ -43,7 +43,7 @@ footer, p {
     .nav-links li {
         display: block;
         width: 100%;
-        background-color: gray;
+        background-color: lightgrey;
         margin-bottom: 10px;
         padding: 5px;
         /*padding-right: 10px;*/
