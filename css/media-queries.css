@@ -35,10 +35,13 @@ section.sub-section {
     width: 100vw;
 }
 
-footer, p {
+footer {
     clear: both;
 }
 
+footer p {
+    padding-top: 100px;
+}
 @media screen and (max-width:768px) {
     .nav-links li {
         display: block;
@@ -83,7 +86,9 @@ footer, p {
     }
 
     .header-img>img {
-        width: 390px;
-        height:224px;
+        display: inline-block;
+        max-width: 98%;
+
     }
+
 }
