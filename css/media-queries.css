@@ -41,10 +41,12 @@ footer {
 }
 
 footer p {
-    padding-top: 100px;
+    height: auto;
+    padding: 0;
 }
-.social-media-links {
-    float: right;
+
+div#social-media-links {
+  padding-top: 80px;
 
 }
 @media screen and (max-width:768px) {
@@ -71,6 +73,7 @@ footer p {
         float: none;
         width:auto;
         padding-left: 0;
+        margin: 0;
     }
 
     section#main.main {
@@ -95,5 +98,4 @@ footer p {
         max-width: 98%;
 
     }
-
 }
