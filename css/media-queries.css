@@ -4,9 +4,13 @@
     display: none;
 }
 
+h1 {
+    float: left;
+}
 
 .nav-links {
-float: right;
+    float: right;
+    padding-top:20px;
 }
 
 li {
