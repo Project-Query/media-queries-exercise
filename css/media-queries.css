@@ -1,5 +1,13 @@
 
-
+html , body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+body {
+    padding: 5px;
+}
 .alert-info.hidden-on-mobile {
     display: none;
 }
@@ -10,30 +18,30 @@ h1 {
 
 .nav-links {
     float: right;
-    padding-top:20px;
+    padding-top: 10px;
 }
 
 li {
     display: inline-block;
+    padding: 5px;
 }
 
 a {
     text-decoration: none;
-    padding-right: 20px;
 }
 
 section#main.main {
     width: 65%;
     float: left;
-    padding: 2px;
 
 }
 
 section.sub-section {
-    width: 30%;
+    width: 33%;
     height: 50%;
     float: left;
     padding-left: 10px;
+
 }
 
 .header-img>img {
@@ -47,11 +55,17 @@ footer {
 footer p {
     height: auto;
     padding: 0;
+    float: left;
 }
 
-div#social-media-links {
-  padding-top: 80px;
+div#social-media-links > a{
+    float: right;
+    padding-top: 15px;
+    padding-right: 5px;
 
+}
+#social-media-links a {
+    padding: 25px;
 }
 @media screen and (max-width:768px) {
     .nav-links li {
@@ -79,22 +93,25 @@ div#social-media-links {
         width:auto;
         padding-left: 0;
         margin: 0;
+        font-style: italic;
     }
 
     section#main.main {
         width: auto;
         float: none;
+        font-family: sans-serif;
     }
 
     .alert-info.hidden-on-mobile {
         display: block;
         width: 95%;
-        padding: 5px;
         background-color: turquoise;
         text-align: center;
+        border: 2px solid #d3d3d3;
     }
 
     h1 {
+        width: 94%;
         text-align: center;
     }
 
@@ -103,4 +120,13 @@ div#social-media-links {
         max-width: 98%;
 
     }
+    body {
+        padding: 5px;
+    }
+    #social-media-links a {
+        padding: 0;
+    }
+
+
+
 }
