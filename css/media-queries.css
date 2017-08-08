@@ -60,6 +60,7 @@ div#social-media-links {
         background-color: lightgrey;
         margin-bottom: 10px;
         padding: 5px;
+        float: left;
     }
 
     .nav-links {
